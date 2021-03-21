@@ -24,6 +24,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import headshot from "assets/img/simone/headshot.JPG";
+import leaf from "assets/img/simone/leaf.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -38,14 +39,12 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+            <div>
+              <img 
+              src={leaf}
+              width={2400}
+              // className="shape shape-style-1 shape-default alpha-4"
+              />
             </div>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
@@ -71,7 +70,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="https://www.linkedin.com/in/simoneodegard/" onClick={e => e.preventDefault()}>
+                        <a href="https://www.linkedin.com/in/simoneodegard/">
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -87,12 +86,11 @@ class Profile extends React.Component {
                       <div className="card-profile-actions py-4 mt-lg-0">
                         <Button
                           className="mr-4"
-                          color="info"
+                          color="success"
                           href="https://www.linkedin.com/in/simoneodegard/"
-                          onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Connect
+                          Connect on LinkedIn
                         </Button>
                         {/* <Button
                           className="float-right"
@@ -112,7 +110,7 @@ class Profile extends React.Component {
                           <span className="description">Followers</span>
                         </div>
                         <div>
-                          <span className="heading">4</span>
+                          <span className="heading">5</span>
                           <span className="description">Projects</span>
                         </div>
                         {/* <div>

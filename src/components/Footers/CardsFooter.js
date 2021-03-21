@@ -123,7 +123,7 @@ class CardsFooter extends React.Component {
               <Col md="6">
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
-                    <a href="https://www.linkedin.com/in/simoneodegard/">Simone Odegard</a>.
+                    <a className="text-success" href="https://www.linkedin.com/in/simoneodegard/">Simone Odegard</a>.
                 </div>
               </Col>
               <Col md="6">
