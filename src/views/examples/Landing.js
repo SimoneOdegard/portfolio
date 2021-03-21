@@ -23,7 +23,7 @@ import busmall from "assets/img/simone/busmall.png";
 import cookiestand from "assets/img/simone/cookiestand.png";
 import recipeRoulette from "assets/img/simone/recipeRoulette.png";
 import horns from "assets/img/simone/horns.png";
-import headshot from "assets/img/simone/headshot.JPG";
+import peace from "assets/img/simone/peace.JPG";
 
 // reactstrap components
 import {
@@ -45,6 +45,8 @@ import {
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
+import bottomcb from "assets/img/simone/bottomcb.jpg";
+import leaf from "assets/img/simone/leaf.jpg";
 
 // index page sections
 import Download from "../IndexSections/Download.js";
@@ -64,26 +66,22 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+              <div className="shape shape-style-1 shape-default alpha-4">
+                <img 
+                src={leaf}
+                width={2400}
+                // className="shape shape-style-1 shape-default alpha-4"
+                />
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
-                      <h1 className="display-3 text-white">
-                        I'm excited for new beginnings{" "}
+                      <h1 className="display-3 text-default">
+                        Coding With Aloha{" "}
                       </h1>
-                      <p className="lead text-white">
-                        I want to show others who are like me that they can achieve great things in tech.
+                      <p className="lead text-default">
+                        I love helping and working with others. Problem solving together until we have that light bulb moment is the best! Always done with a positive attitude.
                       </p>
                     </Col>
                   </Row>
@@ -117,26 +115,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={horns} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Gallery of Horns
                           </h6>
                           <p className="description mt-3">
                             A display of cards that the user can choose to display animals based on how many horns they have.
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               REACT
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
                           >
                             View
@@ -148,26 +146,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={recipeRoulette} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Recipe Roulette
                           </h6>
                           <p className="description mt-3">
                             A meal recipe generator app that allows the user to pick between four categories. A random meal will appear on the screen which will include a picture, the recipe, ingredients, and nutrition facts.
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               HTML
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="https://oakfive.github.io/recipe-roulette/"
                           >
                             View
@@ -179,26 +177,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={busmall} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Bus Mall
                           </h6>
                           <p className="description mt-3">
                             Random images are generated for the user to vote on. After voting, the user can see their favorites displayed in a chart.
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               HTML
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="simoneodegard.github.io/busmall/"
                           >
                             View
@@ -210,26 +208,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={cookiestand} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Salmon Cookies
                           </h6>
                           <p className="description mt-3">
                             A sales prediction app where users can input their own store values to see how many sales they could potentially make per hour.
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               HTML
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="https://simoneodegard.github.io/cookie-stand/"
                           >
                             View
@@ -241,26 +239,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={aboutme} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             About Me
                           </h6>
                           <p className="description mt-3">
                             One of my first times using JavaScript. A guessing game to learn about me. Includes a number guessing game and a favorite fruit guessing game.
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               HTML
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="simoneodegard.github.io/about-me/"
                           >
                             View
@@ -272,26 +270,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={horns} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Placeholder Title 1
                           </h6>
                           <p className="description mt-3">
                             Placeholder
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               REACT
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
                           >
                             View
@@ -303,26 +301,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={horns} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Placeholder title 2
                           </h6>
                           <p className="description mt-3">
                             Placeholder
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               REACT
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
                           >
                             View
@@ -334,26 +332,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={horns} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Placeholder title 3
                           </h6>
                           <p className="description mt-3">
                             Placeholder
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               REACT
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
                           >
                             View
@@ -365,26 +363,26 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <img src={horns} width={275}/>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-success text-uppercase">
                             Placeholder title 4
                           </h6>
                           <p className="description mt-3">
                             Placeholder
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               REACT
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="info"
+                            color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
                           >
                             View
@@ -410,7 +408,7 @@ class Landing extends React.Component {
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-info shadow rounded-circle mb-5">
+                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
                     <h3>Recipe Roulette</h3>
@@ -421,7 +419,7 @@ class Landing extends React.Component {
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <h6 className="font-weight-bold text-info mt-1">
+                            <h6 className="font-weight-bold text-success mt-1">
                               A cure for the indecisive eater
                             </h6>
                           </div>
@@ -430,14 +428,14 @@ class Landing extends React.Component {
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <h6 className="font-weight-bold text-info mt-1">Multiple meal categories to choose from</h6>
+                            <h6 className="font-weight-bold text-success mt-1">Multiple meal categories to choose from</h6>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <h6 className="font-weight-bold text-info mt-1">
+                            <h6 className="font-weight-bold text-success mt-1">
                               Light and dark mode
                             </h6>
                           </div>
@@ -453,38 +451,17 @@ class Landing extends React.Component {
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
-                  <Card className="bg-danger shadow border-0">
+                  <Card className="bg-success shadow border-0">
                     <CardImg
                       alt="..."
-                      src={headshot}
+                      src={peace}
                       top
                     />
-                    <blockquote className="card-blockquote">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="svg-bg"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 583 95"
-                      >
-                        <polygon
-                          className="fill-danger"
-                          points="0,52 583,95 0,95"
-                        />
-                        <polygon
-                          className="fill-danger"
-                          opacity=".2"
-                          points="0,42 583,95 683,0 0,95"
-                        />
-                      </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                        Simone Odegard
-                      </h4>
-                    </blockquote>
                   </Card>
                 </Col>
                 <Col md="6">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-danger shadow rounded-circle mb-5">
+                    <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="fa fa-heart" />
                     </div>
                     <h3>About Me</h3>
@@ -497,7 +474,7 @@ class Landing extends React.Component {
                     I am a software developer and dance coach. I am a strong, driven woman, who wants to change the image of tech. I know it is a male dominated industry and I want to show others, who are like me, that they can be successful in tech too. I am proficient in human relations and I will thrive in an environment where myself and others are always growing. With my background as a coach, I will bring positivity, encouragement, competitiveness, and accountability to any role in tech.
                     </p>
                     <a
-                      className="font-weight-bold text-danger mt-5"
+                      className="font-weight-bold text-success mt-5"
                       href="https://www.linkedin.com/in/simoneodegard/"
                     >
                       Let's stay connected!

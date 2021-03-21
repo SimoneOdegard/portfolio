@@ -113,7 +113,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <span className="nav-link-inner--text text-default">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
                     <DropdownItem to="/portfolio" tag={Link}>
@@ -133,7 +133,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip184698705"
                       target="_blank"
                     >
-                      <i className="fa fa-linkedin" />
+                      <i className="fa fa-linkedin text-default" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         LinkedIn
                       </span>
@@ -149,7 +149,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip356693867"
                       target="_blank"
                     >
-                      <i className="fa fa-instagram" />
+                      <i className="fa fa-instagram text-default" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Instagram
                       </span>
@@ -165,7 +165,7 @@ class DemoNavbar extends React.Component {
                       id="tooltip112445449"
                       target="_blank"
                     >
-                      <i className="fa fa-github" />
+                      <i className="fa fa-github text-default" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Github
                       </span>
