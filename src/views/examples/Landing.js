@@ -81,7 +81,7 @@ class Landing extends React.Component {
                         Coding With Aloha{" "}
                       </h1>
                       <p className="lead text-default">
-                        I love helping and working with others. Problem solving together until we have that light bulb moment is the best! Always done with a positive attitude.
+                        I love helping and working with others. It's the best problem solving together until we have that ah-hah moment.
                       </p>
                     </Col>
                   </Row>
@@ -136,6 +136,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -167,6 +168,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://oakfive.github.io/recipe-roulette/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -198,6 +200,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="simoneodegard.github.io/busmall/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -229,6 +232,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://simoneodegard.github.io/cookie-stand/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -260,6 +264,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="simoneodegard.github.io/about-me/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -291,6 +296,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -322,6 +328,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -353,6 +360,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -384,6 +392,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://eloquent-noyce-7b0c53.netlify.app/"
+                            target="blank"
                           >
                             View
                           </Button>
@@ -476,6 +485,7 @@ class Landing extends React.Component {
                     <a
                       className="font-weight-bold text-success mt-5"
                       href="https://www.linkedin.com/in/simoneodegard/"
+                      target="blank"
                     >
                       Let's stay connected!
                     </a>
