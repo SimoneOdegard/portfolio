@@ -18,12 +18,13 @@
 import React from "react";
 // nodejs library that concatenates classes
 import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
-import aboutme from "assets/img/simone/aboutme.png";
 import busmall from "assets/img/simone/busmall.png";
-import cookiestand from "assets/img/simone/cookiestand.png";
 import recipeRoulette from "assets/img/simone/recipeRoulette.png";
-import horns from "assets/img/simone/horns.png";
 import peace from "assets/img/simone/peace.JPG";
+import genreRoom from "assets/img/simone/genreRoom.png";
+import resty from "assets/img/simone/resty.png";
+import storeFront from "assets/img/simone/storeFront.png";
+import cityExplorer from "assets/img/simone/cityExplorer.png";
 
 // reactstrap components
 import {
@@ -81,7 +82,7 @@ class Landing extends React.Component {
                         Coding With Aloha{" "}
                       </h1>
                       <p className="lead text-default">
-                        I love helping and working with others. It's the best problem solving together until we have that ah-hah moment.
+                        Listening, Inclusion, Project execution: I love helping and working with others. It's a great feeling to achieve greatness together.
                       </p>
                     </Col>
                   </Row>
@@ -112,11 +113,11 @@ class Landing extends React.Component {
                 <Col lg="12">
                   <Row className="row-grid">
                   <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className="shadow border-0">
                         <CardBody className="py-5">
-                          <img src={horns} width={275}/>
+                          <img src={storeFront} width={275}/>
                           <h6 className="text-success text-uppercase">
-                            Gallery of Horns
+                            Store Front
                           </h6>
                           <p className="description mt-3">
                             A display of cards that the user can choose to display animals based on how many horns they have.
@@ -126,16 +127,25 @@ class Landing extends React.Component {
                               REACT
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              CSS
+                              JavaScript
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              JavaScript
+                              SCSS
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              MongoDB
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Express
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Cors
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="https://eloquent-noyce-7b0c53.netlify.app/"
+                            href="https://loving-kirch-445281.netlify.app/"
                             target="blank"
                           >
                             View
@@ -144,24 +154,147 @@ class Landing extends React.Component {
                       </Card>
                     </Col>
                     <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className="shadow border-0">
                         <CardBody className="py-5">
-                          <img src={recipeRoulette} width={275}/>
+                          <img src={resty} width={275}/>
                           <h6 className="text-success text-uppercase">
-                            Recipe Roulette
+                            RESTy
                           </h6>
                           <p className="description mt-3">
-                            A meal recipe generator app that allows the user to pick between four categories. A random meal will appear on the screen which will include a picture, the recipe, ingredients, and nutrition facts.
+                            RESTy is a swagger.io clone. It allows you to use GET, POST, PUT, DELETE to test your APIs.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
                               HTML
                             </Badge>
                             <Badge color="success" pill className="mr-1">
+                              JavaScript
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
                               CSS
                             </Badge>
                             <Badge color="success" pill className="mr-1">
+                              MongoDB
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Express
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Cors
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="https://kind-ritchie-1fc32f.netlify.app/"
+                            target="blank"
+                          >
+                            View
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="shadow border-0">
+                        <CardBody className="py-5">
+                          <img src={genreRoom} width={275}/>
+                          <h6 className="text-success text-uppercase">
+                            Genre Room
+                          </h6>
+                          <p className="description mt-3">
+                            A MERN stack application where users are recommended a random movie. Either fully randomized or randomized by genre.
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
                               JavaScript
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              CSS
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              MongoDB
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Axios
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Express
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Cors
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="https://clever-ardinghelli-fdb608.netlify.app/"
+                            target="blank"
+                          >
+                            View
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="shadow border-0">
+                        <CardBody className="py-5">
+                          <img src={cityExplorer} width={275}/>
+                          <h6 className="text-success text-uppercase">
+                            City Explorer
+                          </h6>
+                          <p className="description mt-3">
+                            A city search app that displays the map of the location, weather for the up coming 10 days, and movies about that city.
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              JavaScript
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              CSS
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Express
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Cors
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="https://modest-borg-215dd1.netlify.app/"
+                            target="blank"
+                          >
+                            View
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="shadow border-0">
+                        <CardBody className="py-5">
+                          <img src={recipeRoulette} width={275}/>
+                          <h6 className="text-success text-uppercase">
+                            Recipe Roulette
+                          </h6>
+                          <p className="description mt-3">
+                            A random meal recipe generator app that provides the user with an image, meal recipe, and nutrition facts.
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+                              HTML
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              JavaScript
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              CSS
                             </Badge>
                           </div>
                           <Button
@@ -176,7 +309,7 @@ class Landing extends React.Component {
                       </Card>
                     </Col>
                     <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className=" shadow border-0">
                         <CardBody className="py-5">
                           <img src={busmall} width={275}/>
                           <h6 className="text-success text-uppercase">
@@ -190,208 +323,16 @@ class Landing extends React.Component {
                               HTML
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              CSS
+                              JavaScript
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              JavaScript
+                              CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="simoneodegard.github.io/busmall/"
-                            target="blank"
-                          >
-                            View
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <img src={cookiestand} width={275}/>
-                          <h6 className="text-success text-uppercase">
-                            Salmon Cookies
-                          </h6>
-                          <p className="description mt-3">
-                            A sales prediction app where users can input their own store values to see how many sales they could potentially make per hour.
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              HTML
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              CSS
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              JavaScript
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="https://simoneodegard.github.io/cookie-stand/"
-                            target="blank"
-                          >
-                            View
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <img src={aboutme} width={275}/>
-                          <h6 className="text-success text-uppercase">
-                            About Me
-                          </h6>
-                          <p className="description mt-3">
-                            One of my first times using JavaScript. A guessing game to learn about me. Includes a number guessing game and a favorite fruit guessing game.
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              HTML
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              CSS
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              JavaScript
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="simoneodegard.github.io/about-me/"
-                            target="blank"
-                          >
-                            View
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <img src={horns} width={275}/>
-                          <h6 className="text-success text-uppercase">
-                            Placeholder Title 1
-                          </h6>
-                          <p className="description mt-3">
-                            Placeholder
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              REACT
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              CSS
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              JavaScript
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="https://eloquent-noyce-7b0c53.netlify.app/"
-                            target="blank"
-                          >
-                            View
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <img src={horns} width={275}/>
-                          <h6 className="text-success text-uppercase">
-                            Placeholder title 2
-                          </h6>
-                          <p className="description mt-3">
-                            Placeholder
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              REACT
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              CSS
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              JavaScript
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="https://eloquent-noyce-7b0c53.netlify.app/"
-                            target="blank"
-                          >
-                            View
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <img src={horns} width={275}/>
-                          <h6 className="text-success text-uppercase">
-                            Placeholder title 3
-                          </h6>
-                          <p className="description mt-3">
-                            Placeholder
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              REACT
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              CSS
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              JavaScript
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="https://eloquent-noyce-7b0c53.netlify.app/"
-                            target="blank"
-                          >
-                            View
-                          </Button>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
-                          <img src={horns} width={275}/>
-                          <h6 className="text-success text-uppercase">
-                            Placeholder title 4
-                          </h6>
-                          <p className="description mt-3">
-                            Placeholder
-                          </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              REACT
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              CSS
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              JavaScript
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="https://eloquent-noyce-7b0c53.netlify.app/"
+                            href="https://simoneodegard.github.io/BusMall/"
                             target="blank"
                           >
                             View
@@ -411,7 +352,7 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={recipeRoulette}
+                    src={genreRoom}
                     width={600}
                   />
                 </Col>
@@ -420,16 +361,16 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Recipe Roulette</h3>
+                    <h3>Genre Room</h3>
                     <p>
-                      Recipe Roulette was our final week long project for 201. We had a vision of building an app that would solve the common question of, "What do you want to eat tonight?" We wanted to randomly generate meal options which would include a picture, ingredients, the recipe, and nutrition facts.
+                      Genre Room is a MERN stack application with Auth. We had a vision of building an app that would solve the common question of, "what will we watch tonight?" We wanted to randomly generate a movie that is completely randomized or can be generated by genre. Recommendations are pulled from MovieDB API.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
                             <h6 className="font-weight-bold text-success mt-1">
-                              A cure for the indecisive eater
+                              A cure for the indecisive movie watcher
                             </h6>
                           </div>
                         </div>
@@ -437,7 +378,7 @@ class Landing extends React.Component {
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <h6 className="font-weight-bold text-success mt-1">Multiple meal categories to choose from</h6>
+                            <h6 className="font-weight-bold text-success mt-1">Multiple genres to choose from</h6>
                           </div>
                         </div>
                       </li>
@@ -445,7 +386,7 @@ class Landing extends React.Component {
                         <div className="d-flex align-items-center">
                           <div>
                             <h6 className="font-weight-bold text-success mt-1">
-                              Light and dark mode
+                              Pulls from MovieDB API
                             </h6>
                           </div>
                         </div>
@@ -475,12 +416,15 @@ class Landing extends React.Component {
                     </div>
                     <h3>About Me</h3>
                     <p className="lead">
-                      Softward Developer based in
+                      Software Developer based in
                       <br/>
                       the Greater Seattle Area
                     </p>
                     <p>
-                    I am a software developer and dance coach. I am a strong, driven woman, who wants to change the image of tech. I know it is a male dominated industry and I want to show others, who are like me, that they can be successful in tech too. I am proficient in human relations and I will thrive in an environment where myself and others are always growing. With my background as a coach, I will bring positivity, encouragement, competitiveness, and accountability to any role in tech.
+                    Hi, I’m Simone Odegard. I’m a full stack JavaScript developer and I lead competitive dance teams. I believe that if you work hard, you will be successful even if you sometimes feel incapable. I want to inspire other young women to follow their dreams and be confident in their ability to succeed in tech.
+                    </p>
+                    <p>
+                    As a dance coach, I have been responsible for creating award winning teams. I love working with people and I love helping them grow. It’s an amazing feeling when you’re able to achieve greatness, and even better when you can achieve that together. I want to join a work environment where others are passionate about their career, value growth, and where creativity is embraced. What I add to any team is positivity, encouragement, and hard work. Thank you for your time.
                     </p>
                     <a
                       className="font-weight-bold text-success mt-5"

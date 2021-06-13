@@ -143,7 +143,10 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        I am a software developer and dance coach. I am a strong, driven woman, who wants to change the image of tech. I know it is a male dominated industry and I want to show others, who are like me, that they can be successful in tech too. I am proficient in human relations and I will thrive in an environment where myself and others are always growing. With my background as a coach, I will bring positivity, encouragement, competitiveness, and accountability to any role in tech.
+                        Hi, I’m Simone Odegard. I’m a full stack JavaScript developer and I lead competitive dance teams. I believe that if you work hard, you will be successful even if you sometimes feel incapable. I want to inspire other young women to follow their dreams and be confident in their ability to succeed in tech.
+                        </p>
+                        <p>
+                        As a dance coach, I have been responsible for creating award winning teams. I love working with people and I love helping them grow. It’s an amazing feeling when you’re able to achieve greatness, and even better when you can achieve that together. I want to join a work environment where others are passionate about their career, value growth, and where creativity is embraced. What I add to any team is positivity, encouragement, and hard work. Thank you for your time.
                         </p>
                         {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more

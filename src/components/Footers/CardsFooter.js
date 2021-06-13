@@ -128,14 +128,6 @@ class CardsFooter extends React.Component {
               </Col>
               <Col md="6">
                 <Nav className="nav-footer justify-content-end">
-                <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
-                      Creative Tim
-                    </NavLink>
-                  </NavItem>
                   <NavItem>
                     <NavLink
                       href="https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md"
